@@ -13,7 +13,7 @@ image_path = "D:/Gradus/test_bill.jpeg"
 # Getting the base64 string
 base64_image = encode_image(image_path)
 
-client = Groq(api_key="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")
+client = Groq(api_key="")
 
 chat_completion = client.chat.completions.create(
     messages=[
